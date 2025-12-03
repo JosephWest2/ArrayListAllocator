@@ -23,3 +23,5 @@ assert(allocator[h1] == std::nullopt);
 
 
 ```
+
+Credit to KoneLinx https://gist.github.com/KoneLinx/d3601597248bed423daf1a7cf7bd9533 for the constexpr random implementation
