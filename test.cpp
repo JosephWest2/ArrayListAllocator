@@ -52,6 +52,7 @@ int main() {
     }
     assert(list.item_count() == 1001);
     assert(!list.is_valid_handle(hc));
+    assert(list[hc] == std::nullopt);
 
     std::println("tests passed");
 }
