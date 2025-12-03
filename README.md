@@ -1,5 +1,5 @@
 # ArrayListAllocator
-A data structure that constructs and destructs passed objects in a single array buffer, and returns an opaque handle tied exclusively to the allocator instance that can be used to retrieve a reference to the object. The handle contains simply an index and a generation that is used to ensure that the the object in memory is not a new object constructed in the old's place. This is largely inspired by (Handles Are The Better Pointers)[https://floooh.github.io/2018/06/17/handles-vs-pointers.html]
+A data structure that constructs and destructs passed objects in a single array buffer, and returns an opaque handle tied exclusively to the allocator instance that can be used to retrieve a reference to the object. The handle contains simply an index and a generation that is used to ensure that the the object in memory is not a new object constructed in the old's place. This is largely inspired by [Handles Are The Better Pointers](https://floooh.github.io/2018/06/17/handles-vs-pointers.html)
 
 ```cpp
 
